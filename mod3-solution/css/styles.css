@@ -1,0 +1,97 @@
+body{
+	font-size:16px;
+	background-color: #22AEA1;/*#9ADDE4*/ 
+	font-family: Helvetica;
+}
+
+/* HEADER */
+#header-nav{
+	background-color: #EF9B81;
+	border:0;
+	border-radius: 0;
+}
+
+.navbar-brand{
+	padding-top: 30px;
+}
+
+.navbar-brand h1{
+	font-family: 'Baloo Bhaina 2', cursive;
+	color:  #F3F2DC ;
+	font-size: 2em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top:25px; 
+	margin-bottom: 10px;
+	line-height: 1.0;
+}
+
+.navbar-brand, .navbar-nav li a {
+    line-height: 76px;
+    height: 76px;
+    padding-top: 0;
+}
+
+.navbar-nav  {
+	margin-top: 10px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+}
+#header-nav button{
+	margin-top: 20px;
+}
+
+.navbar-collapse {
+    border-top: 0;
+}
+
+#nav-list{
+	margin-top:20px;
+}
+
+
+#nav-list a{
+	color:#282828;
+	border-top: 1px solid black;
+}
+
+#nav-list a:hover{
+	background: #E7E7E7;
+}
+
+/** End header **/
+
+
+/** Home page **/
+
+#main-content{
+	width:100%;
+	margin-bottom: 25px;
+}
+
+#main-content h2{
+	width: 100%;
+	font-weight: bold;
+	margin-bottom: 40px;
+	margin-top: 30px; 
+	color: #F7E724  ;
+}
+
+#chicken-tile, #beef-tile, #sushi-tile{
+	width: 100%;
+	background-color: #9ADDE4 ;/*#22AEA1*/
+	padding: 20px;
+	box-shadow:  0 0 80px #597F7B;
+	margin-bottom: 50px;
+
+}
+
+#chicken-tile h3, #beef-tile h3, #sushi-tile h3{
+	font-weight: bold; 
+} 
+
+/** End home page **/
